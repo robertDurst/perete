@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'perete'
+puts Perete.hi(ARGV[0])
