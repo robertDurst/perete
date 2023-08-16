@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'perete'
-puts Perete.hi(ARGV[0])
+require "json"
+require "benchmark/ips"
+
+BenchmarkerTestRunner.new.execute_and_compare
